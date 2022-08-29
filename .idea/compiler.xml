@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mapper" />
+        <module name="controller" />
+        <module name="web" />
+        <module name="entity" />
+        <module name="service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="controller" target="1.7" />
+      <module name="entity" target="1.7" />
+      <module name="mapper" target="1.7" />
+      <module name="service" target="1.7" />
+      <module name="ssmplus" target="1.7" />
+      <module name="web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

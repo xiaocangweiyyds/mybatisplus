@@ -1,0 +1,7 @@
+# Project exclude paths
+/ssmplus/controller/target/
+/ssmplus/entity/target/
+/ssmplus/mapper/target/
+/ssmplus/service/target/
+/ssmplus/target/
+/ssmplus/web/target/
